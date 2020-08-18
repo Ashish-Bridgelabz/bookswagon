@@ -20,15 +20,12 @@ public class LoginPage{
     WebElement clickLogin;
     
 
-    //@FindBy(name="ctl00$phBody$SignIn$txtEmail")
     @FindBy(how = How.NAME, using="ctl00$phBody$SignIn$txtEmail")
     WebElement userName;
 
-    //@FindBy (name="ctl00$phBody$SignIn$txtPassword")
     @FindBy(how = How.NAME, using = "ctl00$phBody$SignIn$txtPassword")
     WebElement userPassword;
 
-    //@FindBy(name="ctl00$phBody$SignIn$btnLogin")
     @FindBy(how = How.NAME,using = "ctl00$phBody$SignIn$btnLogin")
     WebElement login;
 
