@@ -14,8 +14,6 @@ public class LoginPage{
 
         this.driver = driver;
     }
-
-
     @FindBy(how = How.XPATH,using = "*[@id=\"ctl00_divLogin\"]/ul/li[1]/a")
     WebElement clickLogin;
     
